@@ -29,7 +29,7 @@ The Rust compiler should automatically optimize `powi` calls that raise by the p
 Calls to `powi` with an exponent larger than 2 will be more expensive than a single multiply.
 You may find it helpful to examine the `LennardJones` implementation for ideas.
 You may also find it useful to know that Lumol has a [tutorial](https://lumol.org/lumol/latest/book/advanced/potential/index.html) for adding new potentials; however, note that the example they give is for a case in which Lumol is used as a separate library, whereas this problem requires you to implement your potential in the core code.
-You may also find it useful to search for `LennardJones` or a similar existing potential for the purpose of identifying where you might need to make changes to the code.
+You may also find it useful to search for `Mie` or a similar existing potential for the purpose of identifying where you might need to make changes to the code.
 For example:
 
 ```bash
