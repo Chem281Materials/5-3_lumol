@@ -72,7 +72,3 @@ cd lumol
 cargo run -- /work/argon/argon.toml
 ```
 
-## Task 3: Explain the Code
-
-In 2-3 paragraphs, explain the strategy Lumol has used for implementing potentials.
-In particular, compare and contrast how Lumol and LAMMPS are structured.
