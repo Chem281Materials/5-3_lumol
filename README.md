@@ -48,7 +48,7 @@ For example, you could do `cargo run /work/argon/argon.toml`.
 ## Task 2: Add Testing
 
 Add unit tests for your new pair potential, following a similar approach to that already used in lumol for testing.
-Modify the GitHub actions workflow so that it runs an example simulation using your 9-6 potential.
+In addition, modify the GitHub actions workflow so that it runs an example simulation using your 9-6 potential.
 
 Note that lumol is divided into several sub-packages.
 In order to run tests for the `lumol-core` sub-package, you can do:
